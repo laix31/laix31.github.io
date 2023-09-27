@@ -1,0 +1,624 @@
+/*Menu*/
+header 
+{
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 50px;
+    margin-right: 10px;
+    z-index: 100;
+    border:3px black green;
+}
+nav 
+{
+width:750px;
+margin:auto;
+}
+
+nav ul 
+{
+list-style: none;
+}
+
+nav ul li 
+{
+float: left; 
+font-family: Arial, sans-serif;
+font-size: 16px;
+margin-right: 50px;
+}
+
+nav ul li a 
+{
+display: block;
+padding: 10px;
+color: #fff;
+text-decoration: none;
+}
+
+nav ul li:hover 
+{
+background: #cc2323;
+}
+
+/*Imagen de fondo*/
+body
+{
+background-image: url("../imatges/fondo.jpg");
+height: 1000px;
+width: 1000px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 2500px;
+margin:auto;
+}
+
+
+.foot
+{
+  clear: both;
+  margin: auto;
+  width: 100%;
+  height: 40px;
+}
+#down
+{
+	font-size: 20px;
+	color: white;
+	line-height: 1.25;
+	text-align: center;
+  
+}
+
+/*pagina principal*/
+.sect1
+{
+	width: 1000px;
+	height: 300px;
+	margin: auto;
+}
+
+.img
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 25px;
+}
+
+.parte1
+{
+	border-radius: 25px;
+	width: 180px;
+	height: 300px;
+	margin-left: 10px;
+	float:left;
+}
+
+.link
+{
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  margin-left: 40px;
+  font-size: 20px;
+  text-align: center; 
+  line-height: 2;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.321);
+}
+.link:hover 
+{
+background: #f33737;
+}
+
+
+.apiv
+{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 15px;
+}
+.div1
+{
+    width: 1000px;
+    height: 250px;
+}
+
+.text1
+{
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+/*Agentes*/
+
+	/*Selecio de agents*/
+
+.select1
+{
+	background: rgba(0, 0, 0, 0);
+	border-radius: 8px;
+	border: 1px solid black;
+	width: 300px;
+	padding: 20px;
+	text-align: center;
+	outline: 0;
+	font-size: 15px;
+	color:black;
+}
+.divsel
+{
+	text-align: center;
+}
+		/*Títol*/
+.buag
+{
+	text-align: center;
+	font-size: xx-large;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+/*Div de tot (imatge + info)*/
+.allag
+{
+	/*border: 3px solid red;*/
+	width: 900px;
+	height: 900px;
+	margin: auto;
+	margin-top: 30px;
+	background-color: rgba(0, 0, 0, 0.349);
+
+	
+}
+/*Div de la imatge de lapi*/
+#imagenag
+{
+	width: 350px;
+	height: 350px;
+	/*border: 3px solid rgb(0, 255, 0);*/
+	float: left;
+	
+}
+/*div de la info de lapi*/
+#infoag
+{
+	width: 350px;
+	height: 350px;
+	/*border: 3px solid rgb(38, 0, 255);*/
+	margin-left: 80px;
+	color: white;	
+	float: left;
+}
+/*div del nom del agent*/
+#NameAgent
+{
+	text-align: center;
+	font-weight: bold; 
+ 	font-style: italic;
+	font-size: 30px;
+	color: white;
+}
+/*div de les hbailitats*/
+#abilidades
+{
+
+	clear: both;
+	width: 900px;
+	height: 300px;
+	margin: auto;
+	color: white;
+}
+#imgab
+{
+	/*border: 3px solid rgb(0, 114, 44);*/
+	width: 80px;
+	height: 80px;
+}
+.info
+ {
+	float: left;
+	width: 200px;
+	height: 300px;
+	margin: auto;
+	margin-left: 15px;
+ }
+
+
+
+
+
+ /*armas*/
+ .select2
+{
+	background: rgba(0, 0, 0, 0);
+	border-radius: 8px;
+	border: 1px solid black;
+	width: 300px;
+	padding: 20px;
+	text-align: center;
+	outline: 0;
+	font-size: 15px;
+	color:black;
+}
+.divsel1
+{
+	text-align: center;
+
+}
+		/*Títol*/
+.buwe
+{
+	text-align: center;
+	font-size: xx-large;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+/*Div de tot (imatge + info)*/
+.allwe
+{
+	/*border: 3px solid red;*/
+	width: 900px;
+	height: 400px;
+	margin: auto;
+	margin-top: 30px;
+	background-color: rgba(0, 0, 0, 0.349);
+
+	
+}
+/*Div de la imatge de lapi*/
+#imagenwe
+{
+	width: auto;
+	height: auto;
+	margin-top: 20px;
+	float: left;
+	
+}
+
+/*div del nom del agent*/
+.titlewe
+{
+	margin-top: 20px;
+	border: 3px solid rgba(89, 230, 255, 0);
+}
+#Nameweapon
+{
+	text-align: center;
+	font-weight: bold; 
+ 	font-style: italic;
+	font-size: 30px;
+	color: white;
+}
+
+#textweapon
+ {
+	float: left;
+	width: 200px;
+	height: 300px;
+	margin: auto;
+	margin-left: 15px;
+	color: white;
+ }
+
+
+/*mapas*/
+/*llista de mapas*/
+.lima
+{
+width: 410px;
+height: 150px;
+float: left;
+margin: auto;
+margin-top: 20px;
+margin-left: 20px;
+color: white;
+text-align: center;
+}
+#imglm
+{
+	width: 400px;
+	margin-left: 5px;
+	border: 1px solid white;
+}
+#lmapas
+{
+	position: absolute;
+	width: 940px;
+	height: 850px;
+}
+
+	/*Titulo del contenedor*/
+#maps1
+{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+	
+/*Titulo en texto*/
+#titlemaps
+{
+	text-align: center;
+	font-size: xx-large;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+	/*BUSCADOR*/
+
+	/*Cotenedor*/
+#inmaps
+{
+	width: 650px;
+	height: 80px;
+	margin: auto;
+	text-align: center;
+}
+
+
+/*Input*/
+#searchmaps
+{
+	background: rgba(255,255,255,.05);
+	border-radius: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.288);
+	width: 500px;
+	height: 50px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-size: 20px
+}
+
+	/*boton*/
+#butsearch
+{
+	background: rgba(255,255,255,.05);
+    border-radius: 8px;
+	border: 1px solid rgba(0, 0, 0, 0.288);
+    width: 100px;
+    box-sizing: border-box;
+    color: rgb(138, 136, 136);
+    font-size: 20px;
+	margin-top: 30px;
+	text-align: center;
+    cursor: pointer;
+}
+
+/*Div de tot (imatge + info)*/
+.allmaps
+{
+	position: absolute;
+	width: 900px;
+	height: 900px;
+	margin: auto;
+	margin-top: 30px;
+	background-color: rgba(0, 0, 0, 0.349);
+	
+
+	
+}
+/*Div de la imatge de lapi*/
+#imagenmap
+{
+	width: 600px;
+	height: 500px;
+	margin: auto;
+	margin-top: 30px;
+	
+}
+/*div de la info de lapi*/
+#infomap
+{
+	width: 350px;
+	height: 50px;
+	color: white;	
+	margin: auto;
+	margin-top: 40px;
+	text-align: center;
+}
+/*div del nom del mapa*/
+#Namemap
+{
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	font-weight: bold; 
+ 	font-style: italic;
+	font-size: 50px;
+	color: white;
+}
+#nomap
+{
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	font-weight: bold; 
+ 	font-style: italic;
+	font-size: 50px;
+	color: white;
+}
+
+
+/*roles*/
+
+.select3
+{
+	background: rgba(0, 0, 0, 0);
+	border-radius: 8px;
+	border: 1px solid black;
+	width: 300px;
+	padding: 20px;
+	text-align: center;
+	outline: 0;
+	font-size: 15px;
+	color:black;
+}
+.divsel2
+{
+	text-align: center;
+}
+		/*Títol*/
+.buro
+{
+	text-align: center;
+	font-size: xx-large;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+/*Div de tot (imatge + info)*/
+.allag1
+{
+	/*border: 3px solid red;*/
+	width: 900px;
+	height: 900px;
+	margin: auto;
+	margin-top: 30px;
+	background-color: rgba(0, 0, 0, 0.349);
+
+	
+}
+/*Div de la imatge de lapi*/
+#imagenag1
+{
+	width: 350px;
+	height: 350px;
+	/*border: 3px solid rgb(0, 255, 0);*/
+	float: left;
+	
+}
+/*div de la info de lapi*/
+#infoag1
+{
+	width: 350px;
+	height: 350px;
+	/*border: 3px solid rgb(38, 0, 255);*/
+	margin-left: 80px;
+	color: white;	
+	float: left;
+}
+/*div del nom del agent*/
+#NameAgent1
+{
+	text-align: center;
+	font-weight: bold; 
+ 	font-style: italic;
+	font-size: 30px;
+	color: white;
+}
+/*div de les hbailitats*/
+#abilidades1
+{
+
+	clear: both;
+	width: 900px;
+	height: 300px;
+	margin: auto;
+	color: white;
+}
+#imgab1
+{
+	/*border: 3px solid rgb(0, 114, 44);*/
+	width: 80px;
+	height: 80px;
+}
+.info1
+ {
+	float: left;
+	width: 200px;
+	height: 300px;
+	margin: auto;
+	margin-left: 15px;
+ }
+
+
+/*listas*/
+
+.buli
+{
+	text-align: center;
+	font-size: xx-large;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.boton
+{
+	text-decoration:none;
+	font-size: 20px;
+	color:#000000;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:40px;
+	padding-right:40px;
+	background-color: transparent;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #0000006a;
+	border-radius: 20px;
+}
+.boton:hover 
+{
+    background-color: #ff7575;
+    color: white;
+}
+#gamemode
+{
+	margin-left: 150px;
+	margin-bottom: 20px;
+}
+
+
+
+#listas
+{
+	width: 830px;
+	height: 900px;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.229);
+}
+
+/*lista rangos*/
+.lico 
+{
+	width: 150px;
+	height: 130px;
+	margin-left: 45px;
+	text-align: center;
+	float: left;
+	color: white;
+	
+}
+/*lista gamemode*/
+.liga
+{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	text-align: center;
+	float: left;
+	color: white;
+}
+
+#imgga
+{
+	width: 100px;
+	height: 100px;
+}
+/*lista monedas*/
+.limo
+{
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	text-align: center;
+	color: white;
+}

@@ -1,0 +1,43 @@
+<!-- https://dash.valorant-api.com/  -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Valorant</title>
+		<meta charset="UTF-8">
+        <link href="../css/estile.css" rel="stylesheet">
+		<script type="text/javascript" src="../js/functions1.js"></script>
+		<script type="text/javascript">
+			window.addEventListener('load', listmaps);
+		</script>
+	</head>
+	<body>
+		<header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Menu</a></li>
+                    <li><a href="../html/agentes.html">Agents</a></li>
+                    <li><a href="../html/maps.html">Maps</a></li>
+                    <li><a href="../html/weapons.html">Weapons</a></li>
+                    <li><a href="../html/rols.html">Rols</a></li>
+                    <li><a href="../html/lista.html">List</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="maps1">
+			<span id="titlemaps">Busqueda de mapas</span>
+		</div>
+        <div id="inmaps">
+            <input type="text" id="searchmaps" placeholder="Introduce el mapa">
+            <button id="butsearch">Search</button>
+        </div>
+        <div class="allmaps">
+            <div id="nomap"></div>
+            <div id="Namemap"></div>
+            <div id="imagenmap"></div>
+            <div id="infomap">
+                <p id="textmap"></p>
+            </div>
+        </div>
+        <div id="lmapas">  </div>
+    </body>
+</html>

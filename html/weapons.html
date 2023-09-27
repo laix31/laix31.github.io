@@ -1,0 +1,45 @@
+<!-- https://dash.valorant-api.com/  -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Valorant</title>
+		<meta charset="UTF-8">
+        <link href="../css/estile.css" rel="stylesheet">
+		<script type="text/javascript" src="../js/functions1.js"></script>
+		<script type="text/javascript">
+			window.addEventListener('load', listaweapons);
+		</script>
+	</head>
+	<body>
+		<header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Menu</a></li>
+                    <li><a href="../html/agentes.html">Agents</a></li>
+                    <li><a href="../html/maps.html">Maps</a></li>
+                    <li><a href="../html/weapons.html">Weapons</a></li>
+                    <li><a href="../html/rols.html">Rols</a></li>
+                    <li><a href="../html/lista.html">List</a></li>
+                </ul>
+            </nav>
+        </header>
+            <div class="buwe">
+                <span>Busqueda de Armas</span>
+            </div>
+            <div class="divsel1">
+                <select id="selcweapon" class="select2">
+                    <option selected disabled value="-1">Weapons</option>
+                </select>
+            </div>
+            <div class="allwe">
+                <div id="imagenwe"></div>
+                <div class="titlewe" ><h2 id="Nameweapon"></h2></div>  
+                <div> <p id="textweapon"> </p></div>
+                </div>
+            </div>
+            <div id="listadewe">  </div>
+            <footer class="foot">
+                <p id="down"> By  Laia Tubella de la Fuente IFP Hospitalet - DAM VDJ</p>
+            </footer>
+    </body>
+</html>

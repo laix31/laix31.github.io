@@ -1,0 +1,52 @@
+<!-- https://dash.valorant-api.com/  -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Valorant</title>
+		<meta charset="UTF-8">
+        <link href="../css/estile.css" rel="stylesheet">
+		<script type="text/javascript" src="../js/functions1.js"></script>
+		<script type="text/javascript">
+			window.addEventListener('load', listrole);
+		</script>
+	</head>
+	<body>
+		<header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Menu</a></li>
+                    <li><a href="../html/agentes.html">Agents</a></li>
+                    <li><a href="../html/maps.html">Maps</a></li>
+                    <li><a href="../html/weapons.html">Weapons</a></li>
+                    <li><a href="../html/rols.html">Rols</a></li>
+                    <li><a href="../html/lista.html">List</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="buro">
+            <span>Busqueda de roles</span>
+        </div>
+        <div class="divsel2">
+            <select id="selcrole" class="select3">
+                <option selected disabled value="-1">Roles</option>
+            </select>
+            <select id="selcagent1" class="select3">
+                <option selected disabled value="-1">Agents</option>
+            </select>
+        </div>
+        <div class="allag">
+            <div id="imagenag1"></div>
+            <div id="infoag1">
+                <h2 id="NameAgent1"></h2>
+                <p id="textAgent1"></p>
+            </div>
+            <div id="abilidades1">
+                <div id = "imgab1"> </div>
+            </div>
+        </div>
+        <footer class="foot">
+			<p id="down"> By  Laia Tubella de la Fuente IFP Hospitalet - DAM VDJ</p>
+		</footer>
+
+    </body>
+</html>
